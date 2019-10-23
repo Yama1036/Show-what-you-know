@@ -20,6 +20,11 @@ public class ShowWhatYouKnow {
     public static void main(String[] args) {
        Scanner keyedInput = new Scanner (System.in);
         int choice = 0;
+        System.out.println("What is your age??");
+        final int age = keyedInput.nextInt();
+        System.out.println("");
+        System.out.println("");
+        
         
         while ( choice != 5 )
         {
@@ -156,6 +161,7 @@ public class ShowWhatYouKnow {
                         "／　└-(＿＿＿_／\n" +
                         "￣￣￣￣￣￣￣\n" +
                         "");
+                        System.out.println("Your age is "+age+".");
                     }
         
         
