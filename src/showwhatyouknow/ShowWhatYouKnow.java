@@ -1,7 +1,7 @@
 /*
  *Yama
  *21/10/2019
- *Remake the Cubes and Squares and Power code.
+ *Rewrite the "Cubes and Squares and Powers" code and make it as + - / * code. You could choose from 1 to 5 choice. 
  */
 
 package showwhatyouknow;
