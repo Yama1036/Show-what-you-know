@@ -100,7 +100,8 @@ public class ShowWhatYouKnow {
                     
                     System.out.println("");
                     System.out.println("Enter ten integers and they will be multiple:");
-                    System.out.println("If you don't want to multiple 10 numbers, then you just put 1 to the line. ");
+                    System.out.println("If you don't want to multiple 10 numbers, then you just put 1 to the line.");
+                    System.out.println("If you put the 0, then your answer is going to be 0.");
                     for (int i = 0; i <= 9; i = i + 1)
                         {
                             numbers[i] = keyedInput.nextInt();
@@ -127,6 +128,7 @@ public class ShowWhatYouKnow {
                     System.out.println("Enter ten integers and they will be devide:");
                     System.out.println("First number that you are going to put in is the Number that dividend.");
                     System.out.println("If you don't want to Subtract the 10 number, you just put 0 to the line.");
+                    System.out.println("If you put the 0, then your answer is going to be 0.");
                     for (int i = 0; i <= 10; i = i + 1)
                         {
                             numbers[i] = keyedInput.nextInt();
