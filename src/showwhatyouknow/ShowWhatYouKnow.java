@@ -23,7 +23,7 @@ public class ShowWhatYouKnow {
         
         while ( choice != 5 )
         {
-            System.out.println(" + - * / ");
+            System.out.println(" Math Program ");
             System.out.println("");
         
             System.out.println("Prease enter your choice.");
