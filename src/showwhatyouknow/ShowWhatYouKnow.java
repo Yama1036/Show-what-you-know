@@ -1,7 +1,7 @@
 /*
  *Yama
  *21/10/2019
- *Rewrite the "Cubes and Squares and Powers" code and make it as + - / * code. You could choose from 1 to 5 choice. 
+ *Rewrite the "Cubes and Squares and Powers" code and make it as + - / * code. You could choose from 1 to 5 choices. 
  */
 
 package showwhatyouknow;
@@ -20,8 +20,6 @@ public class ShowWhatYouKnow {
     public static void main(String[] args) {
        Scanner keyedInput = new Scanner (System.in);
         int choice = 0;
-        double base = 0;
-        double power;
         
         while ( choice != 5 )
         {
@@ -41,8 +39,8 @@ public class ShowWhatYouKnow {
             
             if ( choice == 1 ) 
                 {
-                    int [ ] numbers = new int [10];
-                    int total = 0;
+                    double [ ] numbers = new double [10];
+                    double total = 0;
         
                     System.out.println("");
                     System.out.println("Enter ten integers and they will be added together:");
@@ -67,8 +65,8 @@ public class ShowWhatYouKnow {
             
             if ( choice == 2 )
                 {
-                    int [] numbers = new int [11];
-                    int total = 0;
+                    double [] numbers = new double [11];
+                    double total = 0;
                     
                     System.out.println("");
                     System.out.println("Enter ten integers and they will be subtract:");
@@ -80,9 +78,9 @@ public class ShowWhatYouKnow {
                         }
         
 
-                    for (int i = 0; i <= 10; i = i + 1)
+                    for (int i = 1; i <= 10; i = i + 1)
                         {
-                            numbers[0] = numbers[0] - numbers[i+1];
+                            numbers[0] = numbers[0] - numbers[i];
                             total = numbers[0];
       
                         }
@@ -97,8 +95,8 @@ public class ShowWhatYouKnow {
             
             if ( choice == 3 )
                 {
-                    int [] numbers = new int [10];
-                    int total = 1;
+                    double [] numbers = new double [10];
+                    double total = 1;
                     
                     System.out.println("");
                     System.out.println("Enter ten integers and they will be multiple:");
@@ -122,8 +120,8 @@ public class ShowWhatYouKnow {
             
             if ( choice == 4)
                 {
-                    int [] numbers = new int [11];
-                    int total = 0;
+                    double [] numbers = new double [11];
+                    double total = 0;
                     
                     System.out.println("");
                     System.out.println("Enter ten integers and they will be devide:");
@@ -135,9 +133,9 @@ public class ShowWhatYouKnow {
                         }
         
 
-                    for (int i = 0; i <= 10; i = i + 1)
+                    for (int i = 1; i <= 10; i = i + 1)
                         {
-                            numbers[0] = numbers[0] / numbers[i+1];
+                            numbers[0] = numbers[0] / numbers[i];
                             total = numbers[0];
                         }
                         
